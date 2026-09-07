@@ -5,7 +5,6 @@
     import kotlinLogo from "$lib/assets/tech/kotlin.svg";
     import pythonLogo from "$lib/assets/tech/python.svg";
     import pytorchLogo from "$lib/assets/tech/pytorch.svg";
-    import rustLogo from "$lib/assets/tech/rust.svg";
     import svelteLogo from "$lib/assets/tech/svelte.svg";
     import tailwindLogo from "$lib/assets/tech/tailwindcss.svg";
     import typescriptLogo from "$lib/assets/tech/typescript.svg";
@@ -15,7 +14,6 @@
     const technologies = [
         { name: "Python", image: pythonLogo },
         { name: "TypeScript", image: typescriptLogo },
-        { name: "Rust", image: rustLogo },
         { name: "Kotlin", image: kotlinLogo },
         { name: "Java", image: javaLogo },
         { name: "Svelte", image: svelteLogo },
@@ -77,6 +75,7 @@
             </Card>
         {/each}
     </div>
+<<<<<<< Updated upstream
 
     <h2 class="mt-2 text-xl font-bold text-white">Projects</h2>
 
@@ -99,3 +98,6 @@
         </a>
     </Card>
 </div>
+=======
+</div>
+>>>>>>> Stashed changes
