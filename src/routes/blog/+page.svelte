@@ -1,6 +1,6 @@
 <script lang="ts">
-    import Card from "$lib/components/Card.svelte";
-    import { formatDate, posts } from "$lib/posts";
+    import Card from "#lib/components/Card.svelte";
+    import { formatDate, posts } from "#lib/posts/index.js";
 </script>
 
 <svelte:head>

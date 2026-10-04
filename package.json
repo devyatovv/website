@@ -3,6 +3,9 @@
     "private": true,
     "version": "0.0.1",
     "type": "module",
+    "imports": {
+        "#lib/*": "./src/lib/*"
+    },
     "scripts": {
         "dev": "vite dev",
         "build": "vite build",
@@ -12,8 +15,8 @@
         "format": "find . \\( -path ./node_modules -o -path ./.svelte-kit -o -path ./build \\) -prune -o -type f \\( -name '*.ts' -o -name '*.js' -o -name '*.svelte' -o -name '*.json' \\) -print0 | xargs -0 perl -pi -e 'chomp if eof'"
     },
     "devDependencies": {
-        "@sveltejs/adapter-static": "^3.0.10",
-        "@sveltejs/kit": "^2.63.0",
+        "@sveltejs/adapter-static": "^4.0.0",
+        "@sveltejs/kit": "^3.0.0",
         "@sveltejs/vite-plugin-svelte": "^7.1.2",
         "@tailwindcss/vite": "^4.3.2",
         "katex": "^0.18.5",
@@ -21,7 +24,7 @@
         "rehype-katex": "5",
         "remark-math": "2.0.1",
         "shiki": "^4.3.1",
-        "svelte": "^5.56.1",
+        "svelte": "^5.57.1",
         "svelte-check": "^4.6.0",
         "tailwindcss": "^4.3.2",
         "typescript": "^6.0.3",

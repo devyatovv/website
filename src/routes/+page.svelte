@@ -1,15 +1,15 @@
 <script lang="ts">
-    import Card from "$lib/components/Card.svelte";
-    import dockerLogo from "$lib/assets/tech/docker.svg";
-    import javaLogo from "$lib/assets/tech/java.svg";
-    import kotlinLogo from "$lib/assets/tech/kotlin.svg";
-    import pythonLogo from "$lib/assets/tech/python.svg";
-    import pytorchLogo from "$lib/assets/tech/pytorch.svg";
-    import svelteLogo from "$lib/assets/tech/svelte.svg";
-    import tailwindLogo from "$lib/assets/tech/tailwindcss.svg";
-    import typescriptLogo from "$lib/assets/tech/typescript.svg";
-    import Button from "$lib/components/Button.svelte";
-    import { toast } from "$lib/toast.svelte";
+    import Card from "#lib/components/Card.svelte";
+    import dockerLogo from "#lib/assets/tech/docker.svg";
+    import javaLogo from "#lib/assets/tech/java.svg";
+    import kotlinLogo from "#lib/assets/tech/kotlin.svg";
+    import pythonLogo from "#lib/assets/tech/python.svg";
+    import pytorchLogo from "#lib/assets/tech/pytorch.svg";
+    import svelteLogo from "#lib/assets/tech/svelte.svg";
+    import tailwindLogo from "#lib/assets/tech/tailwindcss.svg";
+    import typescriptLogo from "#lib/assets/tech/typescript.svg";
+    import Button from "#lib/components/Button.svelte";
+    import { toast } from "#lib/toast.svelte.js";
 
     const technologies = [
         { name: "Python", image: pythonLogo },

@@ -1,4 +1,4 @@
-import { posts } from "$lib/posts";
+import { posts } from "#lib/posts/index.js";
 import { error } from "@sveltejs/kit";
 import type { EntryGenerator, PageLoad } from "./$types";
 
