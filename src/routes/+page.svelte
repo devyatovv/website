@@ -13,13 +13,13 @@
 
     const technologies = [
         { name: "Python", image: pythonLogo },
-        { name: "TypeScript", image: typescriptLogo },
-        { name: "Kotlin", image: kotlinLogo },
+        { name: "PyTorch", image: pytorchLogo },
         { name: "Java", image: javaLogo },
+        { name: "Kotlin", image: kotlinLogo },
+        { name: "TypeScript", image: typescriptLogo },
         { name: "Svelte", image: svelteLogo },
         { name: "Tailwind", image: tailwindLogo },
         { name: "Docker", image: dockerLogo },
-        { name: "PyTorch", image: pytorchLogo }
     ];
 
     const encodedEmail = [113, 71, 33, 13, 105, 13, 38, 4, 119, 89, 94, 42, 18, 107, 12, 27, 29, 119, 88, 49, 27, 57, 85, 58, 25];
