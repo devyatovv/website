@@ -58,6 +58,52 @@
         padding: 0;
     }
 
+    article :global(pre.diff-block) {
+        white-space: normal;
+    }
+
+    article :global(pre.diff-block code) {
+        display: block;
+        min-width: max-content;
+    }
+
+    article :global(pre.diff-block .line) {
+        position: relative;
+        display: block;
+        margin-inline: calc(var(--spacing) * -4);
+        padding-inline: calc(var(--spacing) * 6) calc(var(--spacing) * 4);
+        white-space: pre;
+    }
+
+    article :global(pre.diff-block .diff-add) {
+        background: color-mix(in oklab, var(--color-diff-add) 15%, transparent);
+        box-shadow: inset 2px 0 var(--color-diff-add);
+    }
+
+    article :global(pre.diff-block .diff-remove) {
+        background: color-mix(in oklab, var(--color-diff-remove) 15%, transparent);
+        box-shadow: inset 2px 0 var(--color-diff-remove);
+    }
+
+    article :global(pre.diff-block :is(.diff-add, .diff-remove)::before) {
+        position: absolute;
+        inset-block: 0;
+        left: calc(var(--spacing) * 2);
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+    }
+
+    article :global(pre.diff-block .diff-add::before) {
+        content: "+";
+        color: var(--color-diff-add-marker);
+    }
+
+    article :global(pre.diff-block .diff-remove::before) {
+        content: "-";
+        color: var(--color-diff-remove-marker);
+    }
+
     article :global(:is(ul, ol)) {
         padding-left: calc(var(--spacing) * 6);
     }

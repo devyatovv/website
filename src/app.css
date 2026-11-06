@@ -18,6 +18,10 @@
     --color-card: #2A2A2A;
     --color-border: #777777;
     --color-link: #7788FF;
+    --color-diff-add: #3FB950;
+    --color-diff-add-marker: #85E89D;
+    --color-diff-remove: #F85149;
+    --color-diff-remove-marker: #FDAEB7;
 
     --shadow-inset-subtle: inset 0 1px 0 rgb(255 255 255 / 0.07), inset 0 -1px 0 rgb(255 255 255 / 0.04);
     --shadow-inset-medium: inset 0 1px 0 rgb(255 255 255 / 0.1), inset 0 -1px 0 rgb(255 255 255 / 0.05);

@@ -27,3 +27,10 @@ export function newest(posts: Post[]): Post | undefined {
     return posts.toSorted((a, b) => b.date.localeCompare(a.date)).at(0);
 }
 ```
+
+```diff ts
+export function greet(name: string): string {
+-     return `Hello, ${name}!`;
++     return `Hi, ${name}!`;
+}
+```
